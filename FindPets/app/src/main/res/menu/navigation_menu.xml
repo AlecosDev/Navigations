@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feedFragment"
+        android:title="Feed"
+        android:icon="@drawable/ic_feed"
+        />
+
+    <item
+        android:id="@+id/favoritedFragment"
+        android:title="Favoritos"
+        android:icon="@drawable/ic_favorited"
+        />
+
+    <item
+        android:id="@+id/mapFragment"
+        android:title="Mapa"
+        android:icon="@drawable/ic_map"
+        />
+
+    <item
+        android:id="@+id/lostAnimalFragment"
+        android:title="Animais perdidos"
+        android:icon="@drawable/ic_lost_animals"
+        />
+
+    <item
+        android:id="@+id/membershipFragment"
+        android:title="Seja membro"
+        android:icon="@drawable/ic_membership"
+        />
+
+</menu>
