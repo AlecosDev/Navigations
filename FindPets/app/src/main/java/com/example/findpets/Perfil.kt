@@ -5,23 +5,19 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.findpets.databinding.FragmentFeedBinding
-import com.example.findpets.databinding.FragmentLostAnimalBinding
+import com.example.findpets.databinding.FragmentPerfilBinding
 
 
-class LostAnimalFragment : Fragment() {
 
-    lateinit var binding: FragmentLostAnimalBinding
+class Perfil : Fragment() {
 
-
+    lateinit var binding: FragmentPerfilBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        binding = FragmentLostAnimalBinding.inflate(inflater)
+        binding = FragmentPerfilBinding.inflate(inflater)
         return binding.root
     }
-
 
 }

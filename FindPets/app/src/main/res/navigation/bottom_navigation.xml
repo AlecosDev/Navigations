@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/bottom_navigation"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_navigation"
     app:startDestination="@id/feedFragment">
 
     <fragment
         android:id="@+id/feedFragment"
         android:name="com.example.findpets.FeedFragment"
-        android:label="FeedFragment" />
+        android:label="Feed" />
     <fragment
         android:id="@+id/favoritedFragment"
         android:name="com.example.findpets.FavoritedFragment"
-        android:label="FavoritedFragment" />
+        android:label="Favorited" />
     <fragment
         android:id="@+id/mapFragment"
         android:name="com.example.findpets.MapFragment"
-        android:label="MapFragment" />
+        android:label="Map" />
     <fragment
         android:id="@+id/lostAnimalFragment"
         android:name="com.example.findpets.LostAnimalFragment"
-        android:label="LostAnimalFragment" />
+        android:label="LostAnimal" />
     <fragment
         android:id="@+id/membershipFragment"
         android:name="com.example.findpets.MembershipFragment"
-        android:label="MembershipFragment" />
+        android:label="Membership" />
 </navigation>
