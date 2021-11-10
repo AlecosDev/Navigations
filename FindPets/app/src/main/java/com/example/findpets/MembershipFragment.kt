@@ -24,12 +24,5 @@ class MembershipFragment : Fragment() {
         return binding.root
     }
 
-    fun OnCreateOptionsMenu(menu: Menu?): Boolean {
 
-        val inflater = menuInflater
-
-        inflater.inflate(R.menu.membership_toolbar_menu, menu)
-        return true
-
-    }
 }
